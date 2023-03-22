@@ -1,11 +1,11 @@
 h1,
 [class="collection"] {
   text-transform: uppercase;
-  background-image: linear-gradient(-50deg,
-      #cbb529 0%,
-      #cbb529 25%,
-      #87791a 57%,
-      #87791a 50%);
+  background-image: linear-gradient(-225deg,
+      #3b3b3a 0%,
+      #868683 25%,
+      #c9c8c3 57%,
+      #f6f5f0 50%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -18,7 +18,8 @@ h1,
   display: center;
   font-size: 150px;
   text-align: center;
-  filter: drop-shadow(20px 20px 20px rgb(207, 180, 6)) invert(0%);
+  filter: drop-shadow(10px 10px 10px rgb(169, 161, 170));
+
 }
 
 @keyframes textclip {
@@ -30,11 +31,7 @@ h1,
 div,
 [class="row"] {
 
-  background-image: linear-gradient(-360deg,
-      #ececf1 0%,
-      #3f495b 29%,
-      #903fb0 67%,
-      #f5f0f0 100%);
+  background-image: radial-gradient(#f0f3f5, #168aef);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -43,19 +40,19 @@ div,
   -text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 2s drop infinite;
+  animation: textclip 5s ease infinite;
+  animation-direction: alternate-reverse;
   display: center;
-
 }
 
 h5,
 [class="card-title"] {
 
   background-image: linear-gradient(180deg,
-      #ececf1 0%,
-      #3f495b 29%,
-      #903fb0 67%,
-      #f5f0f0 100%);
+      #00000874 0%,
+      #01050d8f 29%,
+      #28097c 67%,
+      #050225 100%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
