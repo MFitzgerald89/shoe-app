@@ -2,7 +2,7 @@ class ShoesController < ApplicationController
 
 def index
 
-@shoes = Shoes.all
+@shoes = Shoe.all
 
 render :index
 
@@ -10,7 +10,7 @@ end
 
 def show
 
-@shoes = Shoes.find_by[:id params[:id]]
+@shoe = Shoe.find_by(id: params[:id])
 
 end
 

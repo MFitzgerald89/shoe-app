@@ -1,2 +1,5 @@
 ### Shoes Index
 GET http://localhost:3000.shoes
+
+### Shoes Show
+GET http://localhost:3000.shoes/1

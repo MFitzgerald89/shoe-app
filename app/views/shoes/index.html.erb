@@ -1,12 +1,12 @@
-<h1>All Shoes</h1>
+<h1 class="collection">The Collection</h1>
 <div class="row">
   <% @shoes.each do |shoe| %>
     <div class="col card m-2" style="width: 18rem;">
       <img src="<%= shoe.images[0].url%>" class="card-img-top" style="height:400px;object-fit: cover;">
       <div class="card-body">
         <h5 class="card-title"><%= shoe.name %></h5>
-        <p class="card-text">
-          <p>Brand: <%= shoe.brand.name %></p>
+        <p class="card-text" >
+          <p class="><strong>Brand:</strong> <%= shoe.brand.name %></p>
           <p>Size: <%= shoe.size %></p>
         </p>
         <%= link_to "View More", shoe%>

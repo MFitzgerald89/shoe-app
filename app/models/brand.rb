@@ -1,5 +1,5 @@
 class Brand < ApplicationRecord
 
-has_many: shoes
+has_many :shoes
 
 end

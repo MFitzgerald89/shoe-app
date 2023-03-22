@@ -1,8 +1,8 @@
-<h1>Shoe Info</h1>
 <h2><%= @shoe.name %></h2>
 <p>Brand: <%= @shoe.brand.name %></p>
 <img src="<%= @shoe.brand.logo%>" width="200">
 <p>Size: <%= @shoe.size %></p>
 <% @shoe.images.each do |image| %>
-  <img src="<%= image.url %>" width="250">
+  <img src="<%= image.url %>" width="300" >
 <% end %>
+$
